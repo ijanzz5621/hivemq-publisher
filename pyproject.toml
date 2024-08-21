@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "mqtt-publisher"
+version = "1.0.0"
+description = "To test MQTT sending and receiving message using MQTT"
+authors = ["Sharizan Redzuan <sharizan_81@yahoo.com>"]
+readme = "README.md"
+
+[tool.poetry.scripts]
+dev = "mqtt_publisher.__main__:main"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+paho-mqtt = "^2.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

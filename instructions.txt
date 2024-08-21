@@ -1,0 +1,11 @@
+1. run below docker command
+
+    docker run -p 8080:8080 -p 1883:1883 hivemq/hivemq4
+
+2. go to browser and type http://localhost:8080
+
+3. login
+
+    username:   admin
+    password:   hivemq
+
